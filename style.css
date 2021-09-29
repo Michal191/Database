@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(91, 125, 148);
+
+}
+h1{
+    text-align: center;
+    margin-top: 45px;
+}
+.myForm{
+    text-align: center;
+    margin-top: 50px;
+}
+.name_check{
+    transform: translate(6%);
+}
+.myForm input[type="text"]{
+    
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.myForm input[type="submit"]{
+    font-size: 23px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    background-color: rgb(27, 170, 27);
+}
+.myForm input[type="submit"]:hover{
+    transform: scale(1.2);
+}
+.write{
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    background-color: rgb(28, 38, 185);
+}
+.write:hover{
+    transform: scale(1.2);
+}
+.names{
+    
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20%;
+
+}
+.names div{
+    margin-top: 5px;
+    margin-left: 10%;
+
+}
+.names button{
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    margin-right: 10px;
+    transform: scale(1);
+    transition: transform 0.3s;
+    background-color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+.names span,button:hover{
+    transform: scale(1.2);
+    
+}
+.adult{
+    color: green;
+    background-color: black;
+    padding: 2px 4px 2px 4px;
+}
+.no-adult{
+    color: red;
+    padding: 2px 4px 2px 4px;
+    background-color: black;
+}
